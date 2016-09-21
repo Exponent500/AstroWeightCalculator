@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Astro Weight Calculator</title>
+	  <link rel="stylesheet" href= "normalize.css">
+	  <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+	  <link rel="stylesheet" href="main.css">
+	</head>
+
+	<body>
+		<header>
+			<span id="title"></span>
+		</header>
+		<form>
+			<label for="weight">Your Weight</label>
+			<input type="text" id="weight" name="user_weight">
+				<label for="planet">Select a Planet</label>
+				<select id="planet"></select>
+			<button type="button" onclick="calculateAndDisplayWeight()">Calculate</button>
+		</form>
+		<p id="result"></p>
+		<script src="index.js"></script>
+	</body>
+</html>
